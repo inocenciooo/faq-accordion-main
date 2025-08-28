@@ -1,0 +1,12 @@
+.question p {
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+
+.question.active p {
+    display: block;
+}
+
+.button:hover {
+    cursor: pointer;
+}
