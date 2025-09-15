@@ -1,12 +1,20 @@
 .question p {
-    display: none;
-    transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
+  transform: translateX(5rem);
+  opacity: 0;
+  display: none;
 }
 
 .question.active p {
-    display: block;
+  display: block;
+  opacity: 1;
+  transform: translateX(0rem);
+}
+
+.question.active .button {
+  background-image: url(../images/icon-minus.svg);
 }
 
 .button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

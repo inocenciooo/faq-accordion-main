@@ -45,10 +45,10 @@ html {
 
 .card {
   background-color: var(--white);
-  max-width: 60rem;
+  width: 60rem;
   padding: 4rem;
   border-radius: 14px;
-  margin: 0 2rem;
+  margin: 2rem;
 }
 
 .tittle {
@@ -85,7 +85,12 @@ html {
 .question .button {
   position: absolute;
   right: -0.5rem;
-  top: -0.5rem;
+  top: -0.3rem;
+  content: "";
+  background-image: url(../images/icon-plus.svg);
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
 }
 
 .question h3 {
